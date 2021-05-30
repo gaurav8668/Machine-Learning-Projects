@@ -1,4 +1,4 @@
-<h2><b>The Project is Fligt Fare Prediction, which predicts the fare of a flight.</b></h2>
+<h2><b>The Project is Fligt Fare Prediction, which predicts the fare of a flight. This is a Regression Problem.</b></h2>
 
 <h1><b> Dataset <b></h1>
   Dataset is taken from kaggle: https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh
