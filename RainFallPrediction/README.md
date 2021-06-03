@@ -1,16 +1,7 @@
 # Rain-Prediction
-A project on predicting whether it will rain tomorrow or not by using the Rainfall in Australia dataset
-This project is tested over lot of ml models like catboost, xgboost, random forest, support vector classifier, etc..
-Out of these models catboost performed very well giving an AUC score around and ROC score of 89 far better than others.
-Here due to my system compatibility is very low. So I havent done hyperparameter tuning. But it is highly recommended to do it if possible.
-# Website Link: ["https://rainy-brain.herokuapp.com/"](https://rainy-brain.herokuapp.com/)
+<h3>The project is about rain fall prediction which predicts weather rain will come tomorrow or not. The data set is taken from kaggle.</h3>
 
-# Testing values
-
-# Rainy Day: 
-![Predictor Values for Rainy Day](githubimgs/predictor.png)
-# Sunny Day:
-![Predictor Values for Sunny Day](githubimgs/predictor1.png)
+# Dataset: <h2>https://www.kaggle.com/jsphyg/weather-dataset-rattle-package</h2>
 
 # Tech Stack
 * Front-End: HTML, CSS, Bootstrap
@@ -29,22 +20,15 @@ Here due to my system compatibility is very low. So I havent done hyperparameter
 
 # Some screenshots of the app
 * Landing Page:
-![Landing Page](githubimgs/landingpage.png)
+<img src="https://github.com/gaurav8668/Machine-Learning-Projects/blob/main/RainFallPrediction/ss1.png">
 * About Rainy Brain:
-![About](githubimgs/about.png)
-* Dashboard:
-![Dashboard](githubimgs/dashboard.png)
-* Developer:
-![Developer](githubimgs/developer.png)
+<img src="https://github.com/gaurav8668/Machine-Learning-Projects/blob/main/RainFallPrediction/ss2.png">
 * Predictor:
-![Predictor](githubimgs/predictor.png)
-* Result:
-![Result](githubimgs/result.png)
+<img src="https://github.com/gaurav8668/Machine-Learning-Projects/blob/main/RainFallPrediction/ss3.png">
+
 
 # Workflow
 
-# Data Collection: 
-[Rainfall Prediction in Australia dataset](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package) from Kaggle
 # Data Preprocessing: 
 * Missing Values Handled by Random Sample imputation to maintain the variance
 * Categorical Values like location, wind direction are handled by using Target guided encoding
@@ -56,11 +40,6 @@ Here due to my system compatibility is very low. So I havent done hyperparameter
 * Different types of models were tried like catboost, random forest, logistic regression, xgboost, support vector machines, knn, naive bayes.
 * Out of these catboost, random forest and support vector machines were top 3
 * The conclusion were made using classification metrics. roc curve and auc score
-# Model Deployment
-* The model is deployed using Flask at Heroku server at the [link](https://rainy-brain.herokuapp.com/)
-
-# If you like this project please do give a star. I am also giving my LinkedIn profile. If you want we can connect there too
-[https://www.linkedin.com/in/vasanth-p-90826218b/](https://www.linkedin.com/in/vasanth-p-90826218b/)
 
 
 
