@@ -8,27 +8,6 @@
 * Back-End: Flask
 * IDE: Jupyter notebook, Pycharm
 
-# How to run this app
-* First create a virtual environment by using this command:
-* conda create -n myenv python=3.6
-* Activate the environment using the below command:
-* conda activate myenv
-* Then install all the packages by using the following command
-* pip install -r requirements.txt
-* Now for the final step. Run the app
-* python app.py
-
-# Some screenshots of the app
-* Landing Page:
-<img src="https://github.com/gaurav8668/Machine-Learning-Projects/blob/main/RainFallPrediction/ss1.png">
-* About Rainy Brain:
-<img src="https://github.com/gaurav8668/Machine-Learning-Projects/blob/main/RainFallPrediction/ss2.png">
-* Predictor:
-<img src="https://github.com/gaurav8668/Machine-Learning-Projects/blob/main/RainFallPrediction/ss3.png">
-
-
-# Workflow
-
 # Data Preprocessing: 
 * Missing Values Handled by Random Sample imputation to maintain the variance
 * Categorical Values like location, wind direction are handled by using Target guided encoding
@@ -40,6 +19,25 @@
 * Different types of models were tried like catboost, random forest, logistic regression, xgboost, support vector machines, knn, naive bayes.
 * Out of these catboost, random forest and support vector machines were top 3
 * The conclusion were made using classification metrics. roc curve and auc score
+
+# How to run this app
+* First create a virtual environment by using this command:
+* conda create -n myenv python=3.6
+* Activate the environment using the below command:
+* conda activate myenv
+* Then install all the packages by using the following command
+* pip install -r requirements.txt
+* Now for the final step. Run the app
+* python app.py
+
+# Some screenshots of the app
+<h3>Landing Page:</h3>
+<img src="https://github.com/gaurav8668/Machine-Learning-Projects/blob/main/RainFallPrediction/ss1.png">
+<h3>About Rainy Brain:</h3>
+<img src="https://github.com/gaurav8668/Machine-Learning-Projects/blob/main/RainFallPrediction/ss2.png">
+<h3>Predictor:</h3>
+<img src="https://github.com/gaurav8668/Machine-Learning-Projects/blob/main/RainFallPrediction/ss3.png">
+
 
 
 
