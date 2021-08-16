@@ -28,3 +28,7 @@
   <img src="https://github.com/gaurav8668/Machine-Learning-Projects/blob/main/Customer%20Churn%20Analysis/images/ss2.png">
   <img src="https://github.com/gaurav8668/Machine-Learning-Projects/blob/main/Customer%20Churn%20Analysis/images/ss3.png">
   <img src="https://github.com/gaurav8668/Machine-Learning-Projects/blob/main/Customer%20Churn%20Analysis/images/ss4.png">
+ 
+# <b> How to Run this app: </b>
+1. install requirements.txt using pip command
+2. Run app.py
